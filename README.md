@@ -2,9 +2,9 @@
 
 AWS Practice tutorial 
 
-With the current climate and the rise of even more automation, I thought it would be great to learn how to build a chat bot. Looking at call centres, NHS helplines and ordering in general, there's more automation. The first step would be build a chat bot then link it using Lambda and an API.
+With the current climate and the rise of even more automation, I thought it would be great to learn how to build a chatbot. Looking at call centres, NHS helplines and ordering in general, there's more automation. The first step would be build a chat bot then link it using Lambda and an API.
 
-In this part of the tutorail we're going to create a Chatbot that helps us order a pizza a drink. 
+In this part of the tutorail we're going to create a Chatbot that helps us order a pizza and a drink. 
 
 So in the AWS console, hop to Amazon Lex. Then click create bot.
 Then you want to select blank bot.
@@ -16,17 +16,17 @@ COPPA - select no
 
 <img width="1792" alt="Screenshot 2023-02-16 at 11 15 55" src="https://user-images.githubusercontent.com/71371405/219657132-611c8191-7663-4a71-9df8-42c3055757b6.png">
 
-The hit next page. 
+Then hit next page. 
 
 <img width="1792" alt="Screenshot 2023-02-16 at 11 21 52" src="https://user-images.githubusercontent.com/71371405/219658048-c72f296b-760a-4d8a-8028-7203222a1730.png">
 
-This is where you can select a region and the accent will change to. There's also a male or female. option. I selected English (GB) and the voice of Arthur. 
+This is where you can select a region, which also changes the accent. There's also a male / female option. I selected English (GB) and the voice of Arthur. 
 
 Then hit done.
 
 <img width="1792" alt="Screenshot 2023-02-16 at 11 29 10" src="https://user-images.githubusercontent.com/71371405/219660030-d96855ad-02bf-438a-9169-83050aff3bd2.png">
 
-At the top where it says the language, if you click, will take you back to the main page. This will be a good default to return to, as it can sometimes be confusing, having different intent, slots and segments to go with it. 
+At the top where it says the language, if you click, will take you back to the main page. This will be a good default to return to; as it can sometimes be confusing having different intents, slots and segments to go with it. 
 
  So firstly we need to create an Intent - think of an intent like a category / topic of the conversation. 1) Hello - 2) I want a pizza - 3) I want a drink. 
  
@@ -69,7 +69,6 @@ Then we will add then confirmation
 
 Confirming to go through with the order or not.
 <img width="1792" alt=" " src="https://user-images.githubusercontent.com/71371405/219701198-72593cf4-b073-4ffe-be18-e913025c82f2.png">
-
 
 
 
